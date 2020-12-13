@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index-style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="Meme-Editor.html">
+    <title>Image Gallery</title>
+</head>
+
+<body onload="init()">
+    <div class="main-screen   align-center ">
+        <header class="orange">
+            <div class="main-header flex row space-between align-center main-layout">
+                <div class="logo"><img src="icon/logo.png"></div>
+                <div class="menu">
+                    <ul class="clean-list flex">
+                        <li href="#" onclick="onGallery()">Gallery</li>
+                        <li onclick="onEditor(-1)">Memes</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="gallery main-layout container">
+
+        </div>
+        <footer class="orange">
+            <div class="height main-layout flex column align-center justify-center">
+                <div class="logo"><img src="icon/logo.png"></div>
+                <p>Yairus 2020</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="js/storage-service.js "></script>
+    <script src="js/service.js "></script>
+    <script src="js/controller.js"></script>
+    <script src="js/controller-index.js "></script>
+</body>
+
+</html>
